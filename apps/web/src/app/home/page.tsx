@@ -1,4 +1,7 @@
-import { motion } from 'framer-motion';
+"use client"
+
+import { motion, AnimatePresence } from 'framer-motion/dist/components/AnimatePresence';
+import { motion as m } from 'framer-motion/dist/components/motion';
 import { useInView } from 'react-intersection-observer';
 import Image from 'next/image';
 
