@@ -1,7 +1,8 @@
 "use client"
 
 import { useState } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion, AnimatePresence } from 'framer-motion/dist/components/AnimatePresence';
+import { motion as m } from 'framer-motion/dist/components/motion';
 import { Textarea } from '@/components/ui/textarea';
 import { Button } from '@/components/ui/button';
 
