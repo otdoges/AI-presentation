@@ -1,5 +1,4 @@
-import { motion, AnimatePresence } from 'framer-motion/dist/components/AnimatePresence';
-import { motion as m } from 'framer-motion/dist/components/motion';
+import { motion as m, AnimatePresence } from 'framer-motion';
 import { Presentation } from '@/types/presentation';
 import { PresentationSlide } from './components/PresentationSlide';
 
